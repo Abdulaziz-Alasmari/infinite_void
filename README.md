@@ -1,6 +1,6 @@
 # Infinit Void 
 
-it's a 2D HTML canvas shooting game. this game is developed for learning porpuses.
+it's a 2D HTML canvas shooting game. this game is developed for learning purposes.
 
 ## Story
 
