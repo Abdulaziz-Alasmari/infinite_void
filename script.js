@@ -67,8 +67,8 @@ class Enemy {
     update() {
         this.draw();
         const angle = Math.atan2(player.y - this.y, player.x - this.x)
-        this.velocity.x = Math.cos(angle) 
-        this.velocity.y = Math.sin(angle) 
+        this.velocity.x = Math.cos(angle) * 2 
+        this.velocity.y = Math.sin(angle) * 2
         this.x += this.velocity.x;
         this.y += this.velocity.y;
     }
@@ -101,8 +101,8 @@ class Boss {
         if (this.isChasing) {
 
             const angle = Math.atan2(player.y - this.y, player.x - this.x)
-            this.velocity.x = Math.cos(angle) * 4
-            this.velocity.y = Math.sin(angle) * 4
+            this.velocity.x = Math.cos(angle) * 5
+            this.velocity.y = Math.sin(angle) * 5
         }
         this.x += this.velocity.x;
         this.y += this.velocity.y;
