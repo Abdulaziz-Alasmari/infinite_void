@@ -21,6 +21,6 @@ mouse click : shoot
 
 ## Demo 
 
-[play the game here]()
+[play the game here](https://abdulaziz-alasmari.github.io/infinite_void/)
 
 ![Live Demo](demo.gif)
